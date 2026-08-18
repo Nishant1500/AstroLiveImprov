@@ -1,7 +1,19 @@
-# Welcome to your Expo app 👋
+# Welcome 👋
+Greetings!
+<p>
+   This project is part of educational and research work done on <a href="https://astrolive.app/">AstroLive</a> brand and its endorsed websites and services showcasing  solutions for user retention, UI & UX improvements.
+</p>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+ - Considered for Submission in [AstroHack](https://unstop.com/competitions/astrohack-2026-build-the-next-universe-astrolive-1719172).
+##### About the Challenge:
+>
+> AstroLive is a fast-growing astrology consultation and divination platform where thousands of users connect via call and chat with astrologers every single day.
+> 
+> This challenge is modelled directly around how AstroLive operates at scale, focusing on real-world mechanics of product growth, user retention, revenue  generation, and core engagement.
+> 
+> This is a live business problem; the goal is to deliver a working prototype that solves a genuine operational bottleneck.
 
+**This project uses Expo for creating react native framework, and finally the webpack files are deployed on Vercel.**
 ## Get started
 
 1. Install dependencies
@@ -16,41 +28,21 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Building and Deploying
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+Done with the improvements, changes and codes? Finish off by building and deploying.
+##### Web
 ```bash
-npm run reset-project
+  npx expo export --platform web
 ```
+**Note:** This project isn't fully supported for native platforms like Android, iOS since this project mostly uses CSS, as native components restrictions animations which are implemented in this project to have its spotlight. Instead you can use a webview for those platforms or find your specific type of aniamtion alternative.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributions
+We are open for all types of contribution. These won't be helping you get credited in the [AstroHack](https://unstop.com/competitions/astrohack-2026-build-the-next-universe-astrolive-1719172) competition, yet you can still earn appreciation and experience.
 
-### Other setup steps
+Just create a pull request with your changes, ideas and contirbutions and I will get back to you with my opinions and hopefully it will be merged in no time.
+You can have this as your `#goodfirstissue` and contribute to open source.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#### Disclaimer:
+This is specifically for use of private assets under UnStop platform, AstroLive assets, and for educational purposes only.
+No commercial usage rights permitted.
